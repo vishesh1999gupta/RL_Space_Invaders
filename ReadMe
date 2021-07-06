@@ -1,0 +1,36 @@
+1) Plot the graphs of the obtained Max score and Avg score in plot.py
+2) For playing the game run using loaded_weights.py
+3) Two configurations for GA used NN_two_point and NN_uniform
+4) weight_data_2.2 = two-point crossover with config 2 of 11 inputs
+5) weight_data_2.1 = two-point crossover with config 1 of 21 inputs
+6) Assets folder contain images for space invaders game
+7) To play the game with a given weight config run the loaded_weight files
+    (i) Adjust the input config in main_visual.py
+        For weight_data_1.2 - * use config 2 in main_visual.py
+                              * Adjust config in feed forward networks use config 2
+        For weight_data_1.1 - * use config 1 in main_visual.py
+                              * Adjust config in feed forward networks use config 1
+        For weight_data_2.1 - * use config 1 in main_visual.py
+                              * Adjust config in feed forward networks use config 1
+                              * use 23 idx for 124 gen
+
+
+8)  * We selected a mating pool of best 20 performing weight config as parents
+    * Performed two point crossover and uniform cross over technique for mating of rest of 55 children
+    * Performed mutation on randomly selected new population
+
+9) Neural Network Config for
+    i) 11 input config - 11 x 16 x 3
+   ii) 21 input config - 21 x 32 x 3
+
+
+What is given in 21 input config
+
+Position of nearest enemy on the screen
+X coordinates of enemy laser on the screen
+Y coordintaes of enemy laser on the screen
+
+What is given in 11 input config
+
+Position of nearest enemy on the screen
+X coordinates of enemy laser on the screen
