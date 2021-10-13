@@ -1,3 +1,10 @@
+We have implemented a genetic algorithm technique which is one of the techniques catering to reinforcement learning on the game called:-  Space Invaders
+
+for results and About refer :- https://bit.ly/2YKmNI4
+
+
+
+
 1) Plot the graphs of the obtained Max score and Avg score in plot.py
 2) For playing the game run using loaded_weights.py
 3) Two configurations for GA used NN_two_point and NN_uniform
